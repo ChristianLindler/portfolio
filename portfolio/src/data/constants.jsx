@@ -141,7 +141,7 @@ export const Bio = {
       role: "Research Assistant",
       company: "NLP for Financial Markets Lab",
       date: "Aug. 2023 - Present",
-      desc: "Researching NLP techniques to predict company responses to complaints and analyze market relationships. Fine-tuned RoBERTa using annotated CFPB complaints to categorize by legal-basis with 85% accuracy.",
+      desc: "I currently work with a subteam of eight research assistants for the NLP for Financial Markets Lab to analyze the CFPB Complaint Database, looking for market relationships. After assigning each member 300 complaints to annotate, I was able to fine-tune RoBERTa to categorize complaints by legal-basis with 85% accuracy. Currently, I am using Hugging Face to fine-tune different large language models to better predict company responses to complaints. This will allow us to obtain the proability a financial complaint will result in compensation, allowing us to predict the outcomes of consumers' disputes.",
       skills: ["Natural Language Processing", "RoBERTa", "Data Analysis"],
     },
     {
@@ -150,7 +150,7 @@ export const Bio = {
       role: "Data Science Engineering Intern",
       company: "CITY Furniture",
       date: "May 2023 - July 2023",
-      desc: "Developed Skylar, a sales forecasting app based on natural language prompts using Generative AI and NLP. Facilitated the extraction of forecast parameters from user prompts using the OpenAI Chat API, enabling the generation of forecasts from complex, natural language instructions. Enhanced semantic similarity measurement by integrating a custom Dice Loss function, resulting in a significant reduction of similarity score between phrases with shared words but distinct meanings. Created an interactive datatable using MUI datagrid and GraphQL, enabling users to interface with the backend database for efficient data visualization and management of historical impacts. Expanded application functionality with voice-activated speech-to-text, improvements to the user interface, and seamless mobile support, resulting in positive feedback and recognition at CITY Furniture’s Tech Day.",
+      desc: "At CITY Furniture, I worked with a team of four, including the VP of Data, to develop Skylar. Skylar is a web application that leverages Generative AI and NLP to generate dynamic sales forecasts from natural language prompts. First, I facilitated the extraction of forecast parameters from user prompts using the OpenAI Chat API. This allowed the team to get consistent, usable JSON from prompts like \"Forecast 100 days. Put a 50% off sale on Black Friday and a VIP event every Saturday\". From there, we matched the user's 'Events' to the historical impacts in the database using BERT embeddinds. I was able to enhance semantic similarity measurement by integrating a custom Dice Loss function, resulting in a significant reduction of similarity score between events with shared words but distinct meanings. Following this, I created an interactive datatable using MUI datagrid and GraphQL, enabling users to interface with the backend database of prior events for efficient data visualization and management of historical impacts. With a company-wide demo for the project coming up, I also made front-end contributions, expanding application functionality with voice-activated speech-to-text, improvements to the user interface, and seamless mobile support. Ultimately, these achievements resulted in overwhelmingly positive feedback and recognition at CITY Furniture's Tech Day.",
       skills: [
         "Generative AI",
         "Natural Language Processing",
@@ -165,11 +165,11 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "https://ussipartners.com/wp-content/uploads/2022/01/WHT-PNG-1024x397.png",
+      img: "https://media.licdn.com/dms/image/D560BAQHFDjJDesJXkg/company-logo_200_200/0/1684766617939/ussipartners_logo?e=2147483647&v=beta&t=-5JShe6ww21l17byClaJx3RFBGJ6T9MU9X5xDV5cVSY",
       role: "Software Engineering Intern",
       company: "USSI",
       date: "May 2022 - Aug. 2022",
-      desc: "Automated the process of calculating the optimal rotation for stock units with a Python script, saving the company over 100 hours of manual adjustments per furniture inventory sheet. Designed and deployed a LoRaWAN network of temperature and humidity sensors within a customer’s warehouse, facilitating the collection of precise environmental data. Developed a webhook to transfer data from The Things Network and utilized multiple linear regression analysis techniques to identify correlations between warehouse climate and worker Key Performance Indicators.",
+      desc: "At USSI, I was tasked with performing a study on a customer's warehouse to analyze the economic benefits of different warehouse cooling solutions. I designed and deployed a LoRaWAN network of temperature and humidity sensors within the warehouse, facilitating the collection of precise environmental data. I developed a javascript webhook to transfer data from The Things Network to Google Sheets. Pairing this with worker performance KPIs, I wrote a Python program which utilizes multiple linear regression analysis techniques to identify correlations between warehouse climate and worker Key Performance Indicators. Aside from my primary research, I was able to automate the process of calculating the optimal rotation for stock units with a Python script, which saved the company over 100 hours of manual adjustments per furniture inventory sheet.",
       skills: [
         "Python",
         "LoRaWAN",
@@ -184,7 +184,7 @@ export const Bio = {
       role: "Software Engineering Intern",
       company: "Laboratory for Atmospheric and Space Physics",
       date: "May 2020 - Aug. 2020",
-      desc: "Completed a 14-week software engineering internship for CU Boulder college juniors, preparing them for roles at Lockheed Martin and LASP. Acquired proficiency in Python, C, and SQL as a high school participant.",
+      desc: "After being accepted to the Pinhead Institute Internship Program in high school, I was placed with the Laboratory for Atmospheric and Space Physics at CU Boulder. Here, I completed a 14-week, full-time software engineering internship for college juniors, preparing them for roles at Lockheed Martin and LASP. I completed various projects throughout the program. I used multiprocessing to solve computationally expensive puzzles and developed a multi-level variant of Tic-Tac-Toe using PyQt, SQL, and a website which visualized statistics about games played.",
       skills: ["Python", "C", "SQL"],
     },
   ];
@@ -204,7 +204,7 @@ export const Bio = {
       school: "Georgia Institute of Technology",
       date: "Sep 2021 - Dec 2024",
       grade: "4.0 Major GPA | 3.8 GPA",
-      desc: "Currently enrolled in the B.S. CS program at Georgia Tech where I have completed coursework in areas like Artificial Intelligence, Computer Architecture, and Computer Systems and Networks. Earned a place on the Dean's list every semester. Achieved Faculty Honors Fall, 2023.",
+      desc: "In the final 30 credits of the B.S. CS program at Georgia Tech. Completed coursework in areas like Artificial Intelligence, Computer Architecture, and Computer Systems and Networks. Earned Dean's list every semester. Achieved Faculty Honors Fall, 2023.",
       degree: "Bachelor of Science | Computer Science | Intelligence and Devices",
     },
   ];
@@ -212,10 +212,10 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
-      title: "CFPB Complaint Predicter",
+      title: "NLP Complaint Response Predicter",
       date: "Aug. 2023 - Present",
       description:
-        "Researching NLP techniques to predict company responses to complaints and analyze market relationships. Fine-tuned RoBERTa using annotated CFPB complaints to categorize by legal-basis with 85% accuracy.",
+        "I am using Hugging Face to fine-tune different large language models to better predict company responses to complaints. This will allow us to obtain the proability a financial complaint will result in compensation, allowing us to predict the outcomes of consumers' disputes.",
       image: "https://gryphon.ai/wp-content/uploads/2022/09/cfpb.png",
       tags: ["Quantitative Finance", "Machine Learning", "Natural Language Processing", "RoBERTa", "Data Analysis"],
       category: "quantitative finance",
@@ -226,7 +226,7 @@ export const Bio = {
       title: "Monte Carlo Options Pricer",
       date: "Apr. 2023 - Oct. 2023",
       description:
-        "Engineered a full-stack American Options Pricer web app with Flask serving a REST API and a React frontend. Simulated stock price paths by implementing the Heston model, incorporating stochastic volatility, mean of variance reversion, and correlated Brownian Motions to model realistic stock price movement. Computed American Option Prices on the stochastic stock paths by implementing the Longstaff-Schwartz least squares approach, leveraging Yahoo Finance dividend data for improved option execution value estimation.",
+        "I engineered a full-stack American Options Pricer web app with Flask serving a REST API and a React frontend. By implementing and optimizing the heston model, I am able to simulate hundreds of thousands of stock price paths. The Heston Model is able to realistically model stock price movements because it takes into consideration stochastic volatility, mean of variance reversion, and correlated Brownian Motions. Using these paths, I created a Python program to compute the American Option Price through the Longstaff-Schwartz least squares approach. This application leverages Yahoo Finance for former stock prices and dividend payments. This allows the user to price options on different stocks without having to input all of the different parameters, and improves option execution value estimation.",
       image: OptionsPricer,
       tags: ["Quantitative Finance", "Flask", "React", "Heston Model", "Stochastic Volatility", "Longstaff-Schwartz", "Web App"],
       category: "quantitative finance",
@@ -236,9 +236,9 @@ export const Bio = {
     {
       id: 2,
       title: "Chess Engine",
-      date: "Sep. 2023",
+      date: "Sep. 2023 - Present",
       description:
-        "Developed multiple AI Chess bots, training a convolutional neural network and optimizing the minimax algorithm.",
+        "I am developing multiple AI Chess bots to improve my skills in different artificial intelligence approaches. I am training a convolutional neural network on grandmaster games, and implementing optimizations for the minimax algorithm to look far ahead to future moves. I am also designing an accompanying web app to allow users to play against the different models.",
       image: "https://i.imgur.com/BBeDUyo.png",
       tags: ["Machine Learning", "AI", "Convolutional Neural Network", "Minimax", "Web App"],
       github: "https://github.com/ChristianLindler/chessengine",
@@ -248,7 +248,7 @@ export const Bio = {
       title: "Algorithm Visualizer",
       date: "Mar. 2023 - Aug. 2023",
       description:
-        "Developed a React-based web application for dynamic visualization of sorting and path-finding algorithms. Implemented advanced algorithms including Bidirectional A* and Merge Sort, synchronizing updates with the UI.",
+        "To explore the performance of different algorithms, I developed a React-based web application for the dynamic visualization of sorting and path-finding algorithms. I implemented various advanced algorithms including Bidirectional A* and Merge Sort. These algorithms synchronize updates with the UI, providing an intuitive visualization.",
       image: AlgoViz,
       tags: ["Web App", "Sorting Algorithms", "Path-finding Algorithms", "React"],
       github: "https://github.com/ChristianLindler/algovisualizer",
