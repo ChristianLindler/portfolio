@@ -213,7 +213,7 @@ export const Bio = {
       title: "NLP Complaint Response Predicter",
       date: "Aug. 2023 - Present",
       description:
-        "I am using Hugging Face to fine-tune different large language models to better predict company responses to complaints. This will allow us to obtain the proability a financial complaint will result in compensation, allowing us to predict the outcomes of consumers' disputes.",
+        "For the NLP for Financial Markets Lab, I am using Hugging Face to fine-tune different large language models to better predict company responses to complaints. The model currently predicts company responses with 75% accuracy. This will allow us to obtain the probability a financial complaint will result in compensation, allowing us to predict the outcomes of consumer disputes.",
       image: "https://gryphon.ai/wp-content/uploads/2022/09/cfpb.png",
       tags: ["Quantitative Finance", "Machine Learning", "Natural Language Processing", "RoBERTa", "Data Analysis"],
       category: "quantitative finance",
