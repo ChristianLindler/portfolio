@@ -169,7 +169,7 @@ export const Bio = {
       role: "Software Engineering Intern",
       company: "USSI",
       date: "May 2022 - Aug. 2022",
-      desc: "At USSI, I was tasked with performing a study on a customer's warehouse to analyze the economic benefits of different warehouse cooling solutions. I designed and deployed a LoRaWAN network of temperature and humidity sensors within the warehouse, facilitating the collection of precise environmental data. I developed a javascript webhook to transfer data from The Things Network to Google Sheets. Pairing this with worker performance KPIs, I wrote a Python program which utilizes multiple linear regression analysis techniques to identify correlations between warehouse climate and worker Key Performance Indicators. Aside from my primary research, I was able to automate the process of calculating the optimal rotation for stock units with a Python script, which saved the company over 100 hours of manual adjustments per furniture inventory sheet.",
+      desc: "At USSI, I was tasked with performing a study on a customer's warehouse to analyze the economic benefits of different warehouse cooling solutions. I designed and deployed a LoRaWAN network of temperature and humidity sensors within the warehouse, facilitating the collection of precise environmental data. I developed a javascript webhook to transfer data from The Things Network to Google Sheets. Pairing this with worker performance Key Performance Indicators, I wrote a Python program utilizing multiple linear regression analysis techniques to identify correlations between warehouse climate and productivity. Aside from my primary research, I was able to automate the process of calculating the optimal rotation for stock units with a Python script, which saved the company over 100 hours of manual adjustments per furniture inventory sheet.",
       skills: [
         "Python",
         "LoRaWAN",
@@ -184,7 +184,7 @@ export const Bio = {
       role: "Software Engineering Intern",
       company: "Laboratory for Atmospheric and Space Physics",
       date: "May 2020 - Aug. 2020",
-      desc: "After being accepted to the Pinhead Institute Internship Program in high school, I was placed with the Laboratory for Atmospheric and Space Physics at CU Boulder. Here, I completed a 14-week, full-time software engineering internship for college juniors, preparing them for roles at Lockheed Martin and LASP. I completed various projects throughout the program. I used multiprocessing to solve computationally expensive puzzles and developed a multi-level variant of Tic-Tac-Toe using PyQt, SQL, and a website which visualized statistics about games played.",
+      desc: "After being accepted to the Pinhead Institute Internship Program in my Junior year of high school, I was placed with the Laboratory for Atmospheric and Space Physics at CU Boulder. There, I completed a 14-week, full-time software engineering internship for college juniors, preparing them for roles at Lockheed Martin and LASP. I completed various projects throughout the program, using multiprocessing to solve computationally expensive puzzles and developing a multi-level variant of Tic-Tac-Toe using PyQt, SQL, and data visualizations.",
       skills: ["Python", "C", "SQL"],
     },
   ];
