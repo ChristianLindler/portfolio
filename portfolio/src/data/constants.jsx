@@ -141,7 +141,7 @@ export const Bio = {
       role: "Research Assistant",
       company: "NLP for Financial Markets Lab",
       date: "Aug. 2023 - Present",
-      desc: "I currently work with a subteam of eight research assistants for the NLP for Financial Markets Lab to analyze the CFPB Complaint Database, looking for market relationships. After assigning each member 300 complaints to annotate, I was able to fine-tune RoBERTa to categorize complaints by legal-basis with 85% accuracy. Currently, I am using Hugging Face to fine-tune different large language models to better predict company responses to complaints. This will allow us to obtain the proability a financial complaint will result in compensation, allowing us to predict the outcomes of consumers' disputes.",
+      desc: "I currently work with a subteam of eight research assistants for the NLP for Financial Markets Lab to analyze the CFPB Complaint Database, looking for market relationships. After assigning each member 300 complaints to annotate, I was able to fine-tune RoBERTa to categorize complaints by legal-basis with 85% accuracy. Currently, I am using Hugging Face to fine-tune different large language models to better predict company responses to complaints. This will allow us to obtain the probability a financial complaint will result in compensation, allowing us to predict the outcomes of consumer disputes.",
       skills: ["Natural Language Processing", "RoBERTa", "Data Analysis"],
     },
     {
@@ -150,17 +150,15 @@ export const Bio = {
       role: "Data Science Engineering Intern",
       company: "CITY Furniture",
       date: "May 2023 - July 2023",
-      desc: "At CITY Furniture, I worked with a team of four, including the VP of Data, to develop Skylar. Skylar is a web application that leverages Generative AI and NLP to generate dynamic sales forecasts from natural language prompts. First, I facilitated the extraction of forecast parameters from user prompts using the OpenAI Chat API. This allowed the team to get consistent, usable JSON from prompts like \"Forecast 100 days. Put a 50% off sale on Black Friday and a VIP event every Saturday\". From there, we matched the user's 'Events' to the historical impacts in the database using BERT embeddings. I was able to enhance semantic similarity measurement by integrating a custom Dice Loss function, resulting in a significant reduction of similarity score between events with shared words but distinct meanings. Following this, I created an interactive datatable using MUI datagrid and GraphQL, enabling users to interface with the backend database of prior events for efficient data visualization and management of historical impacts. With a company-wide demo for the project coming up, I polished the project with various front-end contributions, expanding application functionality with voice-activated speech-to-text, improvements to the user interface, and seamless mobile support. Ultimately, these achievements resulted in overwhelmingly positive feedback and recognition at CITY Furniture's Tech Day.",
+      desc: "At CITY Furniture, I worked with a team of four, including the VP of Data, to develop Skylar. Skylar is a web application that leverages Generative AI and NLP to generate dynamic sales forecasts from natural language prompts. First, I facilitated the extraction of forecast parameters from user prompts using the OpenAI Chat API. This allowed the team to get consistent, usable JSON from prompts like \"Forecast 100 days. Put a 50% off sale on Black Friday and a VIP event every Saturday\". From there, we matched the user's 'Events' to the historical impacts in the database using BERT embeddings. I was able to enhance semantic similarity measurement by integrating a custom Dice Loss function, resulting in a significant reduction of similarity score between events with shared words but distinct meanings. Following this, I created an interactive datatable using MUI datagrid and GraphQL, enabling users to interface with the backend database of prior events for efficient data visualization and management of historical impacts. With an important, company-wide demo coming up, I polished the project with various front-end contributions, expanding application functionality with voice-activated speech-to-text, improvements to the user interface, and seamless mobile support. Ultimately, these achievements resulted in overwhelmingly positive feedback and recognition at CITY Furniture's Tech Day.",
       skills: [
         "Generative AI",
         "Natural Language Processing",
-        "OpenAI Chat API",
-        "Dice Loss",
-        "MUI Datagrid",
         "GraphQL",
+        "Typescript",
         "Data Visualization",
-        "ReactJS",
-        "Mobile Development",
+        "NextJS",
+        "Full Stack Development",
       ],
     },
     {
@@ -173,7 +171,7 @@ export const Bio = {
       skills: [
         "Python",
         "LoRaWAN",
-        "Webhooks",
+        "Javascript",
         "Linear Regression",
         "Data Analysis",
       ],
@@ -248,7 +246,7 @@ export const Bio = {
       title: "Algorithm Visualizer",
       date: "Mar. 2023 - Aug. 2023",
       description:
-        "To explore the performance of different algorithms, I developed a React-based web application for the dynamic visualization of sorting and path-finding algorithms. I implemented various advanced algorithms including Bidirectional A* and Merge Sort. These algorithms synchronize updates with the UI, providing an intuitive visualization.",
+        "To explore the performance of different algorithms, I developed a React-based web application for the dynamic visualization of sorting and path-finding algorithms. I implemented various algorithms like Bidirectional A* and Merge Sort, synchronizing updates with the UI to provide an intuitive visualization.",
       image: AlgoViz,
       tags: ["Web App", "Sorting Algorithms", "Path-finding Algorithms", "React"],
       github: "https://github.com/ChristianLindler/algovisualizer",
