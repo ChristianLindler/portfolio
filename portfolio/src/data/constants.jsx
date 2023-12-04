@@ -217,7 +217,7 @@ export const Bio = {
       image: "https://gryphon.ai/wp-content/uploads/2022/09/cfpb.png",
       tags: ["Quantitative Finance", "Machine Learning", "Natural Language Processing", "RoBERTa", "Data Analysis"],
       category: "quantitative finance",
-      github: "https://colab.research.google.com/drive/1iogg035WCT6-Jl0jn4fn7TI_hiVfU8Cb?usp=sharing",
+      github: "https://github.com/ChristianLindler/ConsumerResponsePrediction",
     },
     {
       id: 1,
