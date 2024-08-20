@@ -24,7 +24,7 @@ export const Bio = {
         {
           name: "Python",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+            "https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226051.png?f=webp",
         },
         {
           name: "Java",
@@ -113,7 +113,7 @@ export const Bio = {
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
         },
         {
           name: "GitHub",
@@ -137,6 +137,20 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-oTsFNinoIo3WCAgEATuDMqiYC5vupSOhA&s",
+      role: "Data Science Engineering Intern",
+      company: "Thomson Reuters Special Services",
+      date: "May 2024 - Aug 2024",
+      desc: "TRSS Analysts use a network graph service called ScoutFocus to conduct investigations for US Government contracts. In this summer, I leveraged retrieval augmented generation to work on ScoutFocus SideKick: a chat interface for advanced Network Graph analysis. Through migrating both the data and compute of the service to the Snowflake data platform, I decreased chat response delay by 66% (to under 40 seconds) and graph analysis time by 83% (to under 20 seconds).",
+      skills: [
+        "Generative AI",
+        "Natural Language Processing",
+        "Large Language Models",
+        "Full Stack Development",
+      ],
+    },
+    {
+      id: 1,
       img: "https://media.licdn.com/dms/image/C4D0BAQH3NM5VM_X4aQ/company-logo_200_200/0/1630558111506?e=2147483647&v=beta&t=40xlSrq6_QOsXGIi1hesgRl-Lr8Sl-KxtwDpthNg-L4",
       role: "Research Assistant",
       company: "NLP for Financial Markets Lab",
@@ -145,7 +159,7 @@ export const Bio = {
       skills: ["Natural Language Processing", "RoBERTa", "Data Analysis"],
     },
     {
-      id: 1,
+      id: 2,
       img: "data:image/png;base64,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",
       role: "Data Science Engineering Intern",
       company: "CITY Furniture",
@@ -162,7 +176,7 @@ export const Bio = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       img: "https://media.licdn.com/dms/image/D560BAQHFDjJDesJXkg/company-logo_200_200/0/1684766617939/ussipartners_logo?e=2147483647&v=beta&t=-5JShe6ww21l17byClaJx3RFBGJ6T9MU9X5xDV5cVSY",
       role: "Software Engineering Intern",
       company: "USSI",
@@ -177,7 +191,7 @@ export const Bio = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       img: "https://lasp.colorado.edu/media/projects/lasp/images/logo/2012/color/lasp-logo.color.art-acronym.transp-bg.large.png",
       role: "Software Engineering Intern",
       company: "Laboratory for Atmospheric and Space Physics",
@@ -192,8 +206,9 @@ export const Bio = {
       id: 0,
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/ajc/CPLKGQDZU3MT46H6NGLNYEEIMU.jpg",
       school: "Georgia Institute of Technology",
-      date: "Sep 2023 - May 2025",
-      desc: "Selected among a limited number of highly-qualified students to enroll in Georgia Tech's joint B.S./M.S. in Computer Science program. Set to graduate with a Master's and Bachelor's in just four years.",
+      date: "Jan 2024 - Dec 2025",
+      grade: "4.0 GPA",
+      desc: "Selected among a limited number of highly-qualified students to enroll in Georgia Tech's joint B.S./M.S. in Computer Science program.",
       degree: "Master of Science | Computer Science | Machine Learning",
     },
     {
@@ -201,8 +216,8 @@ export const Bio = {
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/ajc/CPLKGQDZU3MT46H6NGLNYEEIMU.jpg",
       school: "Georgia Institute of Technology",
       date: "Sep 2021 - Dec 2024",
-      grade: "4.0 Major GPA | 3.8 GPA",
-      desc: "In the final 30 credits of the B.S. CS program at Georgia Tech. Completed coursework in areas like Artificial Intelligence, Computer Architecture, and Computer Systems and Networks. Earned Dean's list every semester. Achieved Faculty Honors Fall, 2023.",
+      grade: "3.92 Major GPA | 3.84 GPA",
+      desc: "I am currently completing my final semester of the B.S. CS program at Georgia Tech. Completed coursework in areas like AI/ML, Computer Architecture, and Computer Systems and Networks. Earned Dean's list every semester. Achieved Faculty Honors Fall 2023 and Spring 2024.",
       degree: "Bachelor of Science | Computer Science | Intelligence and Devices",
     },
   ];
@@ -210,17 +225,6 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
-      title: "NLP Complaint Response Predicter",
-      date: "Aug. 2023 - Present",
-      description:
-        "For the NLP for Financial Markets Lab, I am using Hugging Face to fine-tune different large language models to better predict company responses to complaints. The model currently predicts company responses with 75% accuracy. This will allow us to obtain the probability a financial complaint will result in compensation, allowing us to predict the outcomes of consumer disputes.",
-      image: "https://gryphon.ai/wp-content/uploads/2022/09/cfpb.png",
-      tags: ["Quantitative Finance", "Machine Learning", "Natural Language Processing", "RoBERTa", "Data Analysis"],
-      category: "quantitative finance",
-      github: "https://github.com/ChristianLindler/ConsumerResponsePrediction",
-    },
-    {
-      id: 1,
       title: "Monte Carlo Options Pricer",
       date: "Apr. 2023 - Oct. 2023",
       description:
@@ -230,6 +234,17 @@ export const Bio = {
       category: "quantitative finance",
       github: "https://github.com/ChristianLindler/optionspricer",
       webapp: "https://optionspricerapp.com",
+    },
+    {
+      id: 1,
+      title: "NLP Complaint Response Predicter",
+      date: "Aug. 2023 - Dec. 2023",
+      description:
+        "For the NLP for Financial Markets Lab, I am used Hugging Face to fine-tune different large language models to better predict company responses to complaints. The model currently predicts company responses with 75% accuracy. This allows us to obtain the probability a financial complaint will result in compensation, allowing us to predict the outcomes of consumer disputes.",
+      image: "https://gryphon.ai/wp-content/uploads/2022/09/cfpb.png",
+      tags: ["Quantitative Finance", "Machine Learning", "Natural Language Processing", "RoBERTa", "Data Analysis"],
+      category: "quantitative finance",
+      github: "https://github.com/ChristianLindler/ConsumerResponsePrediction",
     },
     {
       id: 2,
