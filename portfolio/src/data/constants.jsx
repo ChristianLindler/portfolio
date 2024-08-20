@@ -108,7 +108,7 @@ export const Bio = {
       ],
     },
     {
-      title: "Common Tools",
+      title: "Developer Tools",
       skills: [
         {
           name: "Git",
@@ -152,8 +152,8 @@ export const Bio = {
     {
       id: 1,
       img: "https://media.licdn.com/dms/image/C4D0BAQH3NM5VM_X4aQ/company-logo_200_200/0/1630558111506?e=2147483647&v=beta&t=40xlSrq6_QOsXGIi1hesgRl-Lr8Sl-KxtwDpthNg-L4",
-      role: "Research Assistant",
-      company: "NLP for Financial Markets Lab",
+      role: "Research Assistant - NLP for Financial Markets Team",
+      company: "Financial Services and Innovation Lab",
       date: "Aug. 2023 - Present",
       desc: "I currently work with a subteam of eight research assistants for the NLP for Financial Markets Lab to analyze the CFPB Complaint Database, looking for market relationships. After assigning each member 300 complaints to annotate, I was able to fine-tune RoBERTa to categorize complaints by legal-basis with 85% accuracy. Currently, I am using Hugging Face to fine-tune different large language models to better predict company responses to complaints. This will allow us to obtain the probability a financial complaint will result in compensation, allowing us to predict the outcomes of consumer disputes.",
       skills: ["Natural Language Processing", "RoBERTa", "Data Analysis"],
@@ -240,7 +240,7 @@ export const Bio = {
       title: "NLP Complaint Response Predicter",
       date: "Aug. 2023 - Dec. 2023",
       description:
-        "For the NLP for Financial Markets Lab, I am used Hugging Face to fine-tune different large language models to better predict company responses to complaints. The model currently predicts company responses with 75% accuracy. This allows us to obtain the probability a financial complaint will result in compensation, allowing us to predict the outcomes of consumer disputes.",
+        "For the NLP for Financial Markets Lab, I used Hugging Face to fine-tune different large language models to better predict company responses to complaints. The model currently predicts company responses with 75% accuracy. This allows us to obtain the probability a financial complaint will result in compensation, allowing us to predict the outcomes of consumer disputes.",
       image: "https://gryphon.ai/wp-content/uploads/2022/09/cfpb.png",
       tags: ["Quantitative Finance", "Machine Learning", "Natural Language Processing", "RoBERTa", "Data Analysis"],
       category: "quantitative finance",
