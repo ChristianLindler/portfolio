@@ -5,15 +5,15 @@ export const Bio = {
     name: "Christian Lindler",
     roles: [
       "Software Engineer",
+      "Full Stack Dev",
+      "Grad ML Scholar",
       "NLP Research Assistant",
-      "Full Stack Developer",
-      "Graduate ML Scholar",
     ],
     description:
       "I specialize in Machine Learning at the Georgia Institute of Technology, where I am pursuing a combined bachelor's and master's degree in computer science. I have experience across the stack in many different programming languages including Python, Javascript, and C. Outside of coursework, I have multiple personal projects where I explore my passions like the intersection of computer science and finance. I am looking for a role in which I can work on cutting edge technologies as a software engineering intern.",
     github: "https://github.com/christianlindler",
     resume:
-      "https://drive.google.com/file/d/1syOXod9swJq-KSVhA70mHN-Z2rLFI5ng/view?usp=sharing",
+      "https://drive.google.com/file/d/1syOXod9swJq-KSVhA70mHN-Z2rLFI5ng/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/christianlindler/",
   };
   
@@ -32,28 +32,18 @@ export const Bio = {
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
         },
         {
-          name: "Graph Ql",
-          image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
-        },
-        
+          name: "C/C++",
+          image:
+            "https://static-00.iconduck.com/assets.00/c-plain-icon-894x1024-0mfgph47.png",
+        },     
         {
           name: "JavaScript",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
         {
-          name: "TypeScript",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
-        },
-        {
-          name: "HTML",
+          name: "HTML/CSS",
           image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-        },
-        {
-          name: "CSS",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
         },
         {
           name: "MySQL",
@@ -111,24 +101,19 @@ export const Bio = {
       title: "Developer Tools",
       skills: [
         {
-          name: "Git",
+          name: "Git/Github",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
         },
         {
-          name: "GitHub",
+          name: "Anaconda",
           image:
-            "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+            "https://prod-backend-company-uploads-transcend-io.s3.amazonaws.com/8d6dc27b-6eef-4afc-8e75-1e1ac922e35f/e8d51866-cab8-4ea9-9ab7-b72dea449a4f",
         },
         {
           name: "Docker",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-        },
-        {
-          name: "VS Code",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
         },
       ],
     },
@@ -141,7 +126,7 @@ export const Bio = {
       role: "Data Science Engineering Intern",
       company: "Thomson Reuters Special Services",
       date: "May 2024 - Aug 2024",
-      desc: "TRSS Analysts use a network graph service called ScoutFocus to conduct investigations for US Government contracts. In this summer, I leveraged retrieval augmented generation to work on ScoutFocus SideKick: a chat interface for advanced Network Graph analysis. Through migrating both the data and compute of the service to the Snowflake data platform, I decreased chat response delay by 66% (to under 40 seconds) and graph analysis time by 83% (to under 20 seconds).",
+      desc: "TRSS Analysts use a network graph service called ScoutFocus to conduct investigations for US Government contracts. This past summer, I leveraged retrieval augmented generation to work on ScoutFocus SideKick: a chat interface for advanced Network Graph analysis. Through migrating both the data and compute of the service to the Snowflake data platform, I decreased chat response delay by 66% (to under 40 seconds) and graph analysis time by 83% (to under 20 seconds).",
       skills: [
         "Generative AI",
         "Natural Language Processing",
@@ -155,7 +140,7 @@ export const Bio = {
       role: "Research Assistant - NLP for Financial Markets Team",
       company: "Financial Services and Innovation Lab",
       date: "Aug. 2023 - Present",
-      desc: "I currently work with a subteam of eight research assistants for the NLP for Financial Markets Lab to analyze the CFPB Complaint Database, looking for market relationships. After assigning each member 300 complaints to annotate, I was able to fine-tune RoBERTa to categorize complaints by legal-basis with 85% accuracy. Currently, I am using Hugging Face to fine-tune different large language models to better predict company responses to complaints. This will allow us to obtain the probability a financial complaint will result in compensation, allowing us to predict the outcomes of consumer disputes.",
+      desc: "I currently work with a subteam of eight research assistants for the NLP for Financial Markets Lab to analyze the CFPB Complaint Database, looking for market relationships. After assigning each member 300 complaints to annotate, I was able to fine-tune RoBERTa to categorize complaints by legal-basis with 75% accuracy. Currently, I am using Hugging Face to fine-tune different large language models to better predict company responses to complaints. This will allow us to obtain the probability a financial complaint will result in compensation, allowing us to predict the outcomes of consumer disputes.",
       skills: ["Natural Language Processing", "RoBERTa", "Data Analysis"],
     },
     {
@@ -164,7 +149,7 @@ export const Bio = {
       role: "Data Science Engineering Intern",
       company: "CITY Furniture",
       date: "May 2023 - July 2023",
-      desc: "At CITY Furniture, I worked with a team of four, including the VP of Data, to develop Skylar. Skylar is a web application that leverages Generative AI and NLP to generate dynamic sales forecasts from natural language prompts. First, I facilitated the extraction of forecast parameters from user prompts using the OpenAI Chat API. This allowed the team to get consistent, usable JSON from prompts like \"Forecast 100 days. Put a 50% off sale on Black Friday and a VIP event every Saturday\". From there, we matched the user's 'Events' to the historical impacts in the database using BERT embeddings. I was able to enhance semantic similarity measurement by integrating a custom Dice Loss function, resulting in a significant reduction of similarity score between events with shared words but distinct meanings. Following this, I created an interactive datatable using MUI datagrid and GraphQL, enabling users to interface with the backend database of prior events for efficient data visualization and management of historical impacts. With an important, company-wide demo coming up, I polished the project with various front-end contributions, expanding application functionality with voice-activated speech-to-text, improvements to the user interface, and seamless mobile support. Ultimately, these achievements resulted in overwhelmingly positive feedback and recognition at CITY Furniture's Tech Day.",
+      desc: "At CITY Furniture I developed Skylar: a web application that leverages NLP to generate dynamic sales forecasts from natural language prompts. First, I facilitated the extraction of forecast parameters from user prompts using the OpenAI Chat API. This allowed the team to get consistent, usable JSON from prompts like \"Forecast 100 days with a 50% off sale on Black Friday and a VIP event every Saturday\". From there, I matched the user's 'Events' to historical impacts in the database using BERT embeddings. I was able to enhance semantic similarity measurement by integrating a custom Dice Loss function, resulting in a significant reduction of similarity score between events with shared words but distinct meanings. Following this, I created an interactive datatable using MUI datagrid and GraphQL, enabling users to interface with the backend database of prior events for efficient data visualization and management of historical impacts. I expanded application functionality with voice-activated speech-to-text, improvements to the user interface, and seamless mobile support. Ultimately, these achievements resulted in personal recognition at CITY Furniture's Tech Day from the VP of Data Science.",
       skills: [
         "Generative AI",
         "Natural Language Processing",
