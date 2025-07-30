@@ -71,11 +71,13 @@ const TimelineSection = styled.div`
     justify-content: center;
     gap: 12px;
     @media (max-width: 660px) {
-        align-items: end;
+        align-items: center;
     }
 `;
 
-
+const TimelineConnectorStyled = styled(TimelineConnector)`
+    background: ${({ theme }) => theme.primary} !important;
+`;
 
 const index = () => {
     return (
@@ -83,18 +85,18 @@ const index = () => {
             <Wrapper>
                 <Title>Education</Title>
                 <Desc>
-                    I pursue academic rigor and specialization in the technologies of future through a unique program
+                    My educational background in computer science and machine learning
                 </Desc>
                 <TimelineSection>
                     <Timeline>
                         {education.map((education,index) => (
-                            <TimelineItem >
+                            <TimelineItem key={education.id}>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <EducationCard education={education}/>
                                 </TimelineContent>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length  && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    {index !== experiences.length  && <TimelineConnectorStyled />}
                                 </TimelineSeparator>
                             </TimelineItem>
                         ))}

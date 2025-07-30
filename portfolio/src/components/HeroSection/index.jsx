@@ -16,7 +16,7 @@ const index = () => {
                     <HeroLeftContainer id="Left">
                         <Title>{Bio.name}</Title>
                         <TextLoop>
-                            I am a
+                            
                             <Span>
                                 <Typewriter
                                     options={{

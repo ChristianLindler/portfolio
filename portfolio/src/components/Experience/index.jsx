@@ -72,7 +72,9 @@ const TimelineSection = styled.div`
     gap: 12px;
 `;
 
-
+const TimelineConnectorStyled = styled(TimelineConnector)`
+    background: ${({ theme }) => theme.primary} !important;
+`;
 
 const index = () => {
     return (
@@ -85,10 +87,10 @@ const index = () => {
                 <TimelineSection>
                     <Timeline>
                         {experiences.map((experience,index) => (
-                            <TimelineItem>
+                            <TimelineItem key={experience.id}>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    {index !== experiences.length - 1 && <TimelineConnectorStyled />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <ExperienceCard experience={experience}/>

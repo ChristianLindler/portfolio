@@ -13,7 +13,7 @@ export const Nav = styled.div`
     top: 0;
     z-index: 10;
     @media (max-width: 960px) {
-        trastion: 0.8s all ease;
+        transition: 0.8s all ease;
     }
 `;
 export const NavbarContainer = styled.div`
@@ -42,6 +42,7 @@ export const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
     font-size: 18px;
+    color: ${({ theme }) => theme.text_primary};
 `;
 export const NavItems = styled.ul`
     width: 100%;

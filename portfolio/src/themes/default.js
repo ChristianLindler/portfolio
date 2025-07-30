@@ -6,15 +6,22 @@ export default {
     },
     // Colors for layout
     colors: {
-      primary1: "#854CE6",
-      background1: "#222A35",
-      button: "#854CE6",
-      background2: "#19212C",
-      text: "#C8CFD8",
-      text1: "#F2F5F7",
-      text2: "#626970",
-      text3: "#575C66",
-      footerBackground: "#00012B"
+      primary1: "#4F46E5", // Indigo - softer than teal
+      background1: "#0F172A", // Deep slate
+      button: "#4F46E5", // Indigo buttons
+      background2: "#1E293B", // Slate blue
+      text: "#F1F5F9", // Light gray - better contrast
+      text1: "#FFFFFF", // Pure white for headings
+      text2: "#94A3B8", // Medium gray for secondary text
+      text3: "#6366F1", // Lighter indigo for highlights
+      footerBackground: "#020617", // Darkest slate
+      card: "#1E293B", // Slate for cards
+      card_light: "#334155", // Lighter slate for light cards
+      white: "#FFFFFF",
+      black: "#000000",
+      text_primary: "#F1F5F9",
+      text_secondary: "#94A3B8",
+      text_black: "#000000"
     },
     // Breakpoints for responsive design
     breakpoints: {
